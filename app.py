@@ -156,7 +156,7 @@ try:
                 <= pd.Timestamp(fecha_val).normalize()
                 <= pd.Timestamp(limite).normalize()
             ):
-                return ["background-color: #fff3cd"] * len(row)
+                return ["background-color: #4A0B00"] * len(row)
         return [""] * len(row)
 
 
