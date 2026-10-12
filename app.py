@@ -11,7 +11,7 @@ st.title("BASE DE DATOS - SUPABASE")
 # ==========================================
 # Pega aquí tus credenciales de Supabase
 SUPABASE_URL = "https://pbwxafykvuoigkwdxiym.supabase.co"
-SUPABASE_KEY = "sb_publishable_r0H-L94se0LClcRSInICJQ_1C9S-..."  
+SUPABASE_KEY = "sb_publishable_r0H-L94seOLClcRSInICJQ_1C9S-KWF"  
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
